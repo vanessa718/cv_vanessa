@@ -1,0 +1,262 @@
+/* ##### basic HTML5 tags ##### */
+
+body {
+    font-size: 18px;
+    margin: 0;
+    min-height: 1200px;
+    background-color: #E8EDEC;
+    /*  ##### white-grey with slight blue tint #####  */
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+header {
+    margin-bottom: 20px;
+    padding: 20px;
+    text-align: center;
+
+}
+
+
+main {
+    margin: 30px;
+}
+
+section {
+    background-color: rgba(255, 255, 255, 0.2);
+    /*padding-top: 20px;*/
+   /* margin-top: 5em;*/
+    padding-left: 20px;
+    margin-bottom: 20px;
+}
+.row{
+   /* margin-top: 5em;*/
+    padding-top: 5em;
+}
+
+footer {
+    margin-top: 50px;
+    padding: 20px;
+    background-color: #333;
+    color: #DDD;
+}
+
+li{
+    list-style: none;
+} 
+
+h2 {text-shadow: 2px 2px 2px #b6c2c4;}
+/*CLASSES CARD_A_PROPOS*/
+
+/*.card_news {
+    width: 300px
+    height: 200px;
+    font-size: 1em;
+    color: #000000;
+}*/
+
+/*.card_a_propos {
+    width: 350px;
+    height: 520px;
+    border-radius: 3%;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    overflow: hidden;
+    background-color: rgba(180,180,180,0.5);   
+}*/
+
+/*.card_news_link {
+    text-align: center;
+}
+
+.image_news {
+    height: 200px;
+    width: 300px;
+}
+
+.news_padding {
+    padding-left: 10px;
+}*/
+
+
+/*    CUSTOM CLASSES     */
+
+.h600px {
+    min-height: 600px;
+}
+
+
+
+/*       CLASSES CARD PORTAIL RAGT AND OTHER SECTIONS      */
+
+.card {
+    /*width: 300px;
+    height: 230px;*/
+    background-color: rgba(255, 255, 255, 0.8);
+    margin-top: 10px;
+    margin-bottom: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    overflow: hidden;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+.text {
+    font-weight: bold;
+    margin-top: 3.5em;
+    text-align: center;
+}
+
+.card_apropos{
+    margin-top: 3.5em;
+}
+/*.card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+}*/
+
+/*.image {
+    margin-top: 2.5em;
+}*/
+
+
+/*.card_image img {
+    width: 300px;
+    height: 200px;
+}*/
+
+/*.card_text {
+    width: 300px;
+    height: 30px;
+    font-size: 1, 2em;
+    color: #000000;
+    text-align: center;
+    overflow: hidden;
+}*/
+
+
+/*      STICKY HEADER POSITION    */
+
+
+.sticky.is-sticky {
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    z-index: 1000;
+    width: 100%;
+}
+
+
+
+
+/*      FLOATING "BACK TO TOP" BUTTON    */
+
+#toTop {
+    position: fixed;
+    bottom: 95px;
+    right: 40px;
+    cursor: pointer;
+    display: none;
+}
+
+
+#toTop .fa {
+    margin-right: 5px;
+}
+
+.btn-back {
+  color: #fff;
+  background-color: #008D58;
+  border-color: #008D58;
+}
+
+
+/*     CUSTOMIZED NAVIGATION ELEMENTS         */
+
+nav {
+
+    height: 50px;
+    min-height: 85px;
+    background-color: #9E9FA0;
+    /* ##### warm dark-grey ##### */
+    font-weight: bold;
+    z-index: 1000;
+}
+
+.nav-item {
+    background-color: #9E9FA0;
+
+    
+    /* ##### warm dark-grey ##### */
+}
+
+.nav-elem .container-fluid {
+    margin: 0;
+}
+
+@media (max-width: 980px) {
+    .nav-item {
+        padding-left: 2em;
+        padding right: 2em;
+    }
+}
+
+/*===============================================================*/
+/*------------ Animation 'développeur web junior'--------------- */
+/*===============================================================*/
+@import url(https://fonts.googleapis.com/css?family=Raleway:400,500,300,600,700,800);
+
+#top {
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  font-size: 100%;
+}
+
+h1 {
+  /*margin-top: -10%;*/
+  padding: 0;
+  font-family: 'Raleway';
+  font-weight: 400;
+  font-size: 2.4em;
+  color: #2c3e50;
+  text-align: center;
+}
+
+.letterDrop {
+  position: relative;
+  top: 0.60em;  
+  display: inline-block;
+  text-transform: uppercase; 
+  letter-spacing: 0.3em;
+  opacity: 0.8;
+  transform: rotateX(-90deg);
+  animation: letterDrop 1.2s ease 1 normal forwards;
+}
+
+@keyframes letterDrop {
+    10% {
+        opacity: 0.5;
+    }
+    20% {
+        opacity: 0.8;
+        top: 3.75em;
+        transform: rotateX(-360deg);
+    }
+    100% {
+        opacity: 1;
+        top: 4.50em;
+        transform: rotateX(360deg);
+    }
+}
+
+span:nth-child(2n) {
+  color: #34495e; }
+
+span:nth-child(-n+4) {
+  color: #2c3e50;
+  letter-spacing: 0.25em;
+}
+/*=======================================================*/
+/*------ fin animation 'développeur web junior'----------*/
