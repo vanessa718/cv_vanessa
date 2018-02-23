@@ -34,6 +34,9 @@ section {
    /* margin-top: 5em;*/
     padding-top: 5em;
 }
+.image_loisir{
+    padding-top: 5em;
+}
 
 footer {
     margin-top: 50px;
@@ -92,6 +95,7 @@ h2 {text-shadow: 2px 2px 2px #b6c2c4;}
     text-align: center;
     font-weight: bold;
 }
+
 
 /*       CLASSES CARD PORTAIL RAGT AND OTHER SECTIONS      */
 
