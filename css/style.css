@@ -12,10 +12,10 @@ body {
 }
 
 header {
-    margin-bottom: 20px;
-    padding: 20px;
+   /* margin-bottom: 20px;
+    padding: 20px;*/
     text-align: center;
-
+    height: 10em;
 }
 
 
@@ -85,7 +85,13 @@ h2 {text-shadow: 2px 2px 2px #b6c2c4;}
     min-height: 600px;
 }
 
-
+.a_top{
+    margin-top: -3em;
+}
+.d_text{
+    text-align: center;
+    font-weight: bold;
+}
 
 /*       CLASSES CARD PORTAIL RAGT AND OTHER SECTIONS      */
 
@@ -166,25 +172,32 @@ h2 {text-shadow: 2px 2px 2px #b6c2c4;}
 
 .btn-back {
   color: #fff;
-  background-color: #008D58;
-  border-color: #008D58;
+  background-color: #626060;
+  border-color: #626060;
 }
 
 
 /*     CUSTOMIZED NAVIGATION ELEMENTS         */
 
+.nav-link{
+    font-weight: bold;
+    color:#C1BABA;
+}
+.nav-link:hover{
+    color: #fff;
+}
 nav {
 
     height: 50px;
     min-height: 85px;
-    background-color: #9E9FA0;
+    background-color: #626060;
     /* ##### warm dark-grey ##### */
     font-weight: bold;
     z-index: 1000;
 }
 
 .nav-item {
-    background-color: #9E9FA0;
+    background-color: #626060;
 
     
     /* ##### warm dark-grey ##### */
@@ -215,7 +228,7 @@ nav {
 }
 
 h1 {
-  /*margin-top: -10%;*/
+  margin-top: -10%;
   padding: 0;
   font-family: 'Raleway';
   font-weight: 400;
