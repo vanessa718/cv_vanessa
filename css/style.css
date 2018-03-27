@@ -3,12 +3,17 @@
 body {
     font-size: 18px;
     margin: 0;
+    margin-top: 0px;
     min-height: 1200px;
-    background-color: #E8EDEC;
+    background-color: #f0f0f0;
     /*  ##### white-grey with slight blue tint #####  */
-    background-repeat: no-repeat;
+    /*background-repeat: no-repeat;
     background-attachment: fixed;
-    background-size: cover;
+    background-size: cover;*/
+}
+html {
+    margin-top: 0px;
+    padding-top: 0px;
 }
 
 header {
@@ -18,13 +23,12 @@ header {
     height: 10em;
 }
 
-
 main {
     margin: 30px;
 }
 
 section {
-    background-color: rgba(255, 255, 255, 0.2);
+    background-color: rgba(255, 255, 255);
     /*padding-top: 20px;*/
    /* margin-top: 5em;*/
     padding-left: 20px;
@@ -37,7 +41,12 @@ section {
 .image_loisir{
     padding-top: 5em;
 }
-
+.connaissances{
+    background-color: #D3D3D3; 
+}
+.experiences{
+    background-color: #D3D3D3; 
+}
 footer {
     margin-top: 50px;
     padding: 20px;
@@ -50,36 +59,6 @@ li{
 } 
 
 h2 {text-shadow: 2px 2px 2px #b6c2c4;}
-/*CLASSES CARD_A_PROPOS*/
-
-/*.card_news {
-    width: 300px
-    height: 200px;
-    font-size: 1em;
-    color: #000000;
-}*/
-
-/*.card_a_propos {
-    width: 350px;
-    height: 520px;
-    border-radius: 3%;
-    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
-    overflow: hidden;
-    background-color: rgba(180,180,180,0.5);   
-}*/
-
-/*.card_news_link {
-    text-align: center;
-}
-
-.image_news {
-    height: 200px;
-    width: 300px;
-}
-
-.news_padding {
-    padding-left: 10px;
-}*/
 
 
 /*    CUSTOM CLASSES     */
@@ -99,17 +78,7 @@ h2 {text-shadow: 2px 2px 2px #b6c2c4;}
 
 /*       CLASSES CARD PORTAIL RAGT AND OTHER SECTIONS      */
 
-.card {
-    /*width: 300px;
-    height: 230px;*/
-    background-color: rgba(255, 255, 255, 0.8);
-    margin-top: 10px;
-    margin-bottom: 20px;
-    margin-left: auto;
-    margin-right: auto;
-    overflow: hidden;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-}
+
 
 .text {
     font-weight: bold;
@@ -120,28 +89,7 @@ h2 {text-shadow: 2px 2px 2px #b6c2c4;}
 .card_apropos{
     margin-top: 3.5em;
 }
-/*.card:hover {
-    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
-}*/
 
-/*.image {
-    margin-top: 2.5em;
-}*/
-
-
-/*.card_image img {
-    width: 300px;
-    height: 200px;
-}*/
-
-/*.card_text {
-    width: 300px;
-    height: 30px;
-    font-size: 1, 2em;
-    color: #000000;
-    text-align: center;
-    overflow: hidden;
-}*/
 
 
 /*      STICKY HEADER POSITION    */
